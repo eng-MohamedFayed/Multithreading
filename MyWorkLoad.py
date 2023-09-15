@@ -33,7 +33,6 @@ from email.mime.application import MIMEApplication
 # #         # smtp.sendmail(sender_email, receiver_email, msg.as_string())
 #         smtp.send_message(msg)
 # #         # print("Sent...")
-#
 while True:
     cpu_percent = psutil.cpu_percent()
     memory_percent = psutil.virtual_memory().percent
