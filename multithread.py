@@ -1,6 +1,7 @@
 import turtle
 from multiprocessing import Process
 
+# this function is for drawing a circle
 def draw_circle():
     t = turtle.Turtle()
     t.shape("circle")
