@@ -1,0 +1,27 @@
+2023-09-15 11:29:03:
+* CPU percentage is 30.8%
+* memory percentage is 62.0%
+* HDD percentage is 35.6%
+* network bytes sent is 85118436
+* network bytes received is 1536087825
+
+
+
+2023-09-15 11:29:13:
+* CPU percentage is 9.2%
+* memory percentage is 63.3%
+* HDD percentage is 35.6%
+* network bytes sent is 85125495
+* network bytes received is 1536096984
+
+
+
+2023-09-15 11:29:23:
+* CPU percentage is 2.6%
+* memory percentage is 63.3%
+* HDD percentage is 35.6%
+* network bytes sent is 85125754
+* network bytes received is 1536097659
+
+
+
