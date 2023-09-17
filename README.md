@@ -22,3 +22,22 @@ from multiprocessing import Process
   The multiprocessing module in Python allows you to create and manage separate processes, enabling true parallelism. The Process class is used to initiate new processes. You can start a process with start(), wait for it to finish with join(), and terminate it with terminate().
 
 </div>
+
+```python
+def draw_circle():
+    t = turtle.Turtle()
+    t.shape("circle")
+    t.color("red")
+    # draw the circle with a radius of 50
+    t.circle(50)
+    # exit the turtle graphics window
+    turtle.done()
+```
+
+- turtle.Turtle(): Creates a new Turtle object, which is used for drawing.
+- t.shape("circle"): Sets the shape of the turtle to a circle, indicating how it will appear on the screen.
+- t.color("red"): Sets the color of the turtle's pen to red. This means that the subsequent drawing will be in red.
+- t.circle(50): Draws a circle with a radius of 50 units.
+- turtle.done(): Closes the turtle graphics window after the drawing is complete.
+
+
