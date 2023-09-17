@@ -8,3 +8,9 @@ Multithreading allows a program to execute multiple tasks concurrently within a 
 import turtle
 from multiprocessing import Process
 ```
+<div>
+  ### Turtle library
+  The Turtle library in Python provides a simple graphics module for creating drawings and animations. It's beginner-friendly and allows users to control a turtle that moves on a drawing canvas, making it a popular choice for introductory programming exercises related to graphics.
+  ### Process class from Multiprocessing
+  The multiprocessing module in Python allows you to create and manage separate processes, enabling true parallelism. The Process class is used to initiate new processes. You can start a process with start(), wait for it to finish with join(), and terminate it with terminate().
+</div>
