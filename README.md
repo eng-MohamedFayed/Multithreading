@@ -59,10 +59,11 @@ def draw_rectangle():
     # exit the turtle graphics window
     turtle.done()
 ```
--def draw_rectangle(): - This line defines a function named draw_rectangle.
--t = turtle.Turtle() - Creates a turtle object named t which we'll use to draw.
--t.shape("turtle") - Sets the turtle's shape to "turtle", giving it the appearance of a turtle.
--t.color("blue") - Sets the turtle's color to blue.
--The subsequent lines use t.forward() and t.left() commands to draw a rectangle with a length of 100 and a width of 50. The turtle moves forward, turns 90 degrees left, and repeats these steps to form the rectangle.
--turtle.done() - Closes the turtle graphics window after the drawing is complete.
+
+- def draw_rectangle(): - This line defines a function named draw_rectangle.
+- t = turtle.Turtle() - Creates a turtle object named t which we'll use to draw.
+- t.shape("turtle") - Sets the turtle's shape to "turtle", giving it the appearance of a turtle.
+- t.color("blue") - Sets the turtle's color to blue.
+- The subsequent lines use t.forward() and t.left() commands to draw a rectangle with a length of 100 and a width of 50. The turtle moves forward, turns 90 degrees left, and repeats these steps to form the rectangle.
+- turtle.done() - Closes the turtle graphics window after the drawing is complete.
 </div>
