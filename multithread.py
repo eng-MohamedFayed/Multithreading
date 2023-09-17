@@ -30,10 +30,6 @@ def draw_rectangle():
 
 
 if __name__ == "__main__":
-    # circle = turtle.Screen()
-    # circle.setworldcoordinates(0, 0, 200, 200) #here I tried to make the screen of the circle in a position and the screen of the rectangle in a position but failed
-    # rectangle = turtle.Screen()
-    # rectangle.setworldcoordinates(200, 200, 0, 0)
 
     #to see the full drawing you will find that both screens are above each other so move one of them aside
     circle_process = Process(target=draw_circle)
