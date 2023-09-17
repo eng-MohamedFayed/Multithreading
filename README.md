@@ -1,5 +1,5 @@
 # Mulrithreading
-*** This small project is to demonstrate the multithreading concept using a python script ***
+***This small project is to demonstrate the multithreading concept using a python script***
 ![Multithreading image](https://www.ionos.com/digitalguide/fileadmin/_processed_/6/5/csm_nvme-t_f085d58d46.webp)
 
 <div>
@@ -22,7 +22,8 @@ from multiprocessing import Process
   The multiprocessing module in Python allows you to create and manage separate processes, enabling true parallelism. The Process class is used to initiate new processes. You can start a process with start(), wait for it to finish with join(), and terminate it with terminate().
 
 </div>
-
+<div>
+  
 ```python
 def draw_circle():
     t = turtle.Turtle()
@@ -39,5 +40,29 @@ def draw_circle():
 - t.color("red"): Sets the color of the turtle's pen to red. This means that the subsequent drawing will be in red.
 - t.circle(50): Draws a circle with a radius of 50 units.
 - turtle.done(): Closes the turtle graphics window after the drawing is complete.
-
-
+</div>
+<div>
+  
+```python
+def draw_rectangle():
+    t = turtle.Turtle()
+    t.shape("turtle")
+    t.color("blue")
+    #the rectangle with a length of 100 and width of 50
+    t.forward(100)
+    t.left(90)
+    t.forward(50)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(50)
+    # exit the turtle graphics window
+    turtle.done()
+```
+-def draw_rectangle(): - This line defines a function named draw_rectangle.
+-t = turtle.Turtle() - Creates a turtle object named t which we'll use to draw.
+-t.shape("turtle") - Sets the turtle's shape to "turtle", giving it the appearance of a turtle.
+-t.color("blue") - Sets the turtle's color to blue.
+-The subsequent lines use t.forward() and t.left() commands to draw a rectangle with a length of 100 and a width of 50. The turtle moves forward, turns 90 degrees left, and repeats these steps to form the rectangle.
+-turtle.done() - Closes the turtle graphics window after the drawing is complete.
+</div>
