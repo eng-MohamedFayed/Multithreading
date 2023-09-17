@@ -4,10 +4,12 @@
 <div>
 Multithreading allows a program to execute multiple tasks concurrently within a single process. This enables better performance and responsiveness, especially on multi-core processors. It's crucial for handling tasks involving a mix of computation and I/O operations. However, it introduces challenges like synchronization and thread safety, which need to be carefully managed. Mastering multithreading is essential for developing high-performance applications.
 </div>
+
 ```python
 import turtle
 from multiprocessing import Process
 ```
+
 <div>
   ### Turtle library
   The Turtle library in Python provides a simple graphics module for creating drawings and animations. It's beginner-friendly and allows users to control a turtle that moves on a drawing canvas, making it a popular choice for introductory programming exercises related to graphics.
