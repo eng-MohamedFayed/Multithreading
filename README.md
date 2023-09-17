@@ -67,6 +67,7 @@ def draw_rectangle():
 - The subsequent lines use t.forward() and t.left() commands to draw a rectangle with a length of 100 and a width of 50. The turtle moves forward, turns 90 degrees left, and repeats these steps to form the rectangle.
 - turtle.done() - Closes the turtle graphics window after the drawing is complete.
 </div>
+
 <div>
 
 ```python
@@ -88,5 +89,5 @@ if __name__ == "__main__":
 - rectangle_process.start() - Starts the process for drawing a rectangle.
 - circle_process.join() - Waits for the circle-drawing process to finish before moving on.
 - rectangle_process.join() - Waits for the rectangle-drawing process to finish before moving on.
-- 
+
 </div>
