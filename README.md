@@ -1,2 +1,2 @@
-# OS
-### This is going to contain my OS projects on multithreading and all
+# Mulrithreading
+#### This is a small project to demonstrate the multithreading concept using a python script
