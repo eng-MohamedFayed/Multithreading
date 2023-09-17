@@ -67,3 +67,26 @@ def draw_rectangle():
 - The subsequent lines use t.forward() and t.left() commands to draw a rectangle with a length of 100 and a width of 50. The turtle moves forward, turns 90 degrees left, and repeats these steps to form the rectangle.
 - turtle.done() - Closes the turtle graphics window after the drawing is complete.
 </div>
+<div>
+
+```python
+if __name__ == "__main__":
+
+    #to see the full drawing you will find that both screens are above each other so move one of them aside
+    circle_process = Process(target=draw_circle)
+    rectangle_process = Process(target=draw_rectangle)
+    circle_process.start()
+    rectangle_process.start()
+    circle_process.join()
+    rectangle_process.join()
+```
+
+- if __name__ == "__main__": - This line ensures that the code block underneath is only executed if the script is run directly (not imported as a module).
+- circle_process = Process(target=draw_circle) - Creates a process called circle_process that will execute the draw_circle function.
+- rectangle_process = Process(target=draw_rectangle) - Creates a process called rectangle_process that will execute the draw_rectangle function.
+- circle_process.start() - Starts the process for drawing a circle.
+- rectangle_process.start() - Starts the process for drawing a rectangle.
+- circle_process.join() - Waits for the circle-drawing process to finish before moving on.
+- rectangle_process.join() - Waits for the rectangle-drawing process to finish before moving on.
+- 
+</div>
